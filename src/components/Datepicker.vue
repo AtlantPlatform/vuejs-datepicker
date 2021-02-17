@@ -62,6 +62,7 @@
       :selectedDate="selectedDate"
       :showMonthView="showMonthView"
       :allowedToShowView="allowedToShowView"
+      :shortMonthView="shortMonthView"
       :disabledDates="disabledDates"
       :calendarClass="calendarClass"
       :calendarStyle="calendarStyle"
@@ -127,6 +128,7 @@ export default {
     },
     dayCellContent: Function,
     fullMonthName: Boolean,
+    shortMonthView: Boolean,
     disabledDates: Object,
     highlighted: Object,
     placeholder: String,
